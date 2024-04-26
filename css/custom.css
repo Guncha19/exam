@@ -11,3 +11,12 @@
     background-position: center;
     background-size: cover;
 }
+
+@font-face {
+    font-family: MyFont;
+    src: url(./fonts/bootstrap-icons.woff)
+}
+
+* {
+    font-family: MyFont;
+}
